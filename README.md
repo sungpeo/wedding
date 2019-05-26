@@ -1,4 +1,4 @@
-# hello-world
+# wedding invitation
 
 ## Project setup
 ```
