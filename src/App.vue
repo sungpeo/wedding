@@ -11,8 +11,11 @@
     </div>
   
     <div class="navbar fixed-bottom " style="height:50px; justify-content:space-around">
+      <router-link to="/">
+        <img id="nav-home" class="nav-icon" src="./assets/navy-hearts.png">
+      </router-link>
       <router-link to="/gallery">
-        <img id="nav-gallery" class="nav-icon" src="./assets/gallery.jpg">
+        <img id="nav-gallery" class="nav-icon" src="./assets/gallery.png">
       </router-link>
       <router-link to="/map">
         <img id="nav-map" class="nav-icon" src="./assets/map.png">
@@ -45,6 +48,23 @@
 
 .title {
   font-size: 32px;
+}
 
+.sub-title {
+  /*
+  font-family: 'Daehan';
+  font-weight: bold;
+  padding: 2rem;
+  */
+  padding: 2rem;
+  width: 90%;
+
+
+}
+
+a {
+  text-decoration: none !important;
+  font-weight: bold;
+  color: #2c3e50;
 }
 </style>

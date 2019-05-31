@@ -1,13 +1,13 @@
 <template>
   <div>
     <div class="w-100">
-      <img class="bg-img" src="./../assets/ours/eysp.jpeg">
+      <img class="bg-img" src="./../assets/ours/eysp-crop.jpg">
     </div>
-    <div class="w-100" style="position: absolute; top:0px; left:0px">
+    <div class="w-100 p-1" style="position: absolute; top:0px; left:0px">
       <div class="p-5 m-5">
       </div>
       <div class="p-5">
-        <div class="title d-font font-weight-bold p-2">박은영 ❤ 국성표</div>
+        <div class="title d-font font-weight-bold p-2 pt-5 mt-3">박은영 ❤ 국성표</div>
         <div class="p-5 font-weight-bold">
           <div class="d-font">2019. 8. 31 (토) 낮 12시</div>
           <div class="d-font">신도림 라마다 14층</div>

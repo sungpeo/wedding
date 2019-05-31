@@ -1,12 +1,11 @@
 
 <template>
   <div class="map">
-    <router-link to="/">back</router-link>
-    <h1>Map</h1>
-    <div>
-      <div>약도</div>
-      <div></div>
+    <img class="sub-title" src="../assets/location-title.png">
+    <div align="left" class="p-2">
+      <a class="p-2" href="https://place.map.kakao.com/1071830086">찾아가기</a>
+      <div class="p-2 pt-4">약도</div>
+      <img src="../assets/map_location.jpg" style="width:100%;">
     </div>
-    <a href="https://place.map.kakao.com/1071830086">라마다 호텔 (상세 지도)</a>
   </div>
 </template>

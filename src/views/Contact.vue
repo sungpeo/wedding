@@ -1,7 +1,6 @@
 
 <template>
   <div class="contact">
-    <router-link to="/">back</router-link>
-    <h1>Contact</h1>
+    <img class="sub-title" src="../assets/contact-title.png">
   </div>
 </template>
