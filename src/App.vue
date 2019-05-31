@@ -14,14 +14,14 @@
       <router-link to="/">
         <img id="nav-home" class="nav-icon" src="./assets/navy-hearts.png">
       </router-link>
+      <router-link to="/contact">
+        <img id="nav-contact" class="nav-icon" src="./assets/contact.png">
+      </router-link>
       <router-link to="/gallery">
         <img id="nav-gallery" class="nav-icon" src="./assets/gallery.png">
       </router-link>
       <router-link to="/map">
         <img id="nav-map" class="nav-icon" src="./assets/map.png">
-      </router-link>
-      <router-link to="/contact">
-        <img id="nav-contact" class="nav-icon" src="./assets/contact.png">
       </router-link>
     </div>
   </div>

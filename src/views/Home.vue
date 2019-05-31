@@ -51,7 +51,7 @@ export default {
   width: 100%;
   z-index: -1;
   position: 50%;
-  opacity: .5;
+  opacity: .4;
 }
 
 .nav-icon {
