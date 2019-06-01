@@ -7,7 +7,7 @@
       <div class="p-5 m-5">
       </div>
       <div class="p-5">
-        <div class="title d-font font-weight-bold p-2 pt-5 mt-3">박은영 ❤ 국성표</div>
+        <div class="title d-font font-weight-bold p-4 pt-5 mt-5">박은영 ❤ 국성표</div>
         <div class="p-5 font-weight-bold">
           <div class="d-font">2019. 8. 31 (토) 낮 12시</div>
           <div class="d-font">신도림 라마다 14층</div>
@@ -16,14 +16,6 @@
     </div>
   </div>
 </template>
-
-<script>
-
-export default {
-  name: 'app',
-}
-</script>
-
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
