@@ -24,6 +24,7 @@
       </div>
       <div class="photoblock" align="left">
         <img class="photo" src="../assets/ours/thumbnails/selected-13-sm.jpg" @click="clickPhoto(13)">
+        <img class="photo" src="../assets/ours/thumbnails/selected-14-sm.jpg" @click="clickPhoto(14)">
       </div>
     </div>
 
@@ -170,6 +171,11 @@ export default {
               src: require('../assets/ours/selected-13.jpeg'),
               w: 642,
               h: 960
+          },
+          {
+              src: require('../assets/ours/selected-14.jpeg'),
+              w: 960,
+              h: 642
           },
       ];
       
