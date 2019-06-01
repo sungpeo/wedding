@@ -1,16 +1,10 @@
 <template>
   <div>
     <div id="app">
-<!--
-      <div id="nav">
-        <router-link to="/">Home</router-link> |
-        <router-link to="/about">About</router-link>
-      </div>
--->
       <router-view/>
     </div>
   
-    <div class="navbar fixed-bottom " style="height:50px; justify-content:space-around">
+    <div class="navbar fixed-bottom" v-bind:class="classNavBottom" style="height:50px; justify-content:space-around">
       <router-link to="/">
         <img id="nav-home" class="nav-icon" src="./assets/navy-hearts.png">
       </router-link>
@@ -24,9 +18,29 @@
         <img id="nav-map" class="nav-icon" src="./assets/map.png">
       </router-link>
     </div>
+    <div class="signature small" style="color:#C0C0C0">
+      b<br>y<br> <br>e<br>l<br>i<br>x<br>i<br>r
+    </div>
+
   </div>
 </template>
-
+<script>
+export default {
+  name: 'app',
+  data() {
+    return {
+      isHome: true
+    }
+  },
+  computed: {
+    classNavBottom() {
+      return {
+        'navbar-white': this.$route.name != 'home'
+      }
+    }
+  },
+}
+</script>
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -58,13 +72,22 @@
   */
   padding: 2rem;
   width: 90%;
-
-
 }
 
 a {
   text-decoration: none !important;
   font-weight: bold;
   color: #2c3e50;
+}
+
+.navbar-white {
+  background-color: white;
+}
+
+.signature {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
 }
 </style>
