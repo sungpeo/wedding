@@ -87,12 +87,12 @@
         <div>아버지 박용덕</div>
         <div class="p-2">
           <div class="m-1 d-inline-block">
-            <a href="tel:010-">
+            <a href="tel:010-4577-3445">
               <img class="call-img-sm" src="../assets/call.png">
             </a>
           </div>
           <div class="m-1 pl-3 d-inline-block">
-            <a href="sms:010-">
+            <a href="sms:010-4577-3445">
               <img class="msg-img-sm" src="../assets/message.png">
             </a>
           </div>
