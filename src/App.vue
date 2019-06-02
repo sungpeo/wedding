@@ -4,7 +4,7 @@
       <router-view/>
     </div>
   
-    <div class="navbar fixed-bottom" v-bind:class="classNavBottom" style="height:50px; justify-content:space-around">
+    <div class="navbar fixed-bottom" v-bind:class="classNavBottom" style="height:80px; justify-content:space-around">
       <router-link to="/">
         <img id="nav-home" class="nav-icon" src="./assets/navy-hearts.png">
       </router-link>
@@ -17,9 +17,9 @@
       <router-link to="/map">
         <img id="nav-map" class="nav-icon" src="./assets/map.png">
       </router-link>
-    </div>
-    <div class="signature small" :class="classSignature" style="color:#C0C0C0">
-      b<br>y<br> <br>e<br>l<br>i<br>x<br>i<br>r
+      <div class="signature small" :class="classSignature">
+      developed by elixir kook
+      </div>
     </div>
 
   </div>
@@ -40,7 +40,7 @@ export default {
     },
     classSignature() {
       return {
-        'd-none': this.$route.name.startsWith('gallery')
+        'd-none': this.$route.name != 'home'
       }
     }
   },
@@ -91,8 +91,11 @@ a {
 
 .signature {
   position: fixed;
-  right: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
   bottom: 0;
   z-index: 9999;
+  font-family:serif;
+  line-height:1em;
 }
 </style>
