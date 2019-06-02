@@ -9,7 +9,7 @@
         <img id="nav-home" class="nav-icon" src="./assets/navy-hearts.png">
       </router-link>
       <router-link to="/contact">
-        <img id="nav-contact" class="nav-icon" src="./assets/contact.png">
+        <img id="nav-contact" class="nav-icon" src="./assets/invitation.png">
       </router-link>
       <router-link to="/gallery">
         <img id="nav-gallery" class="nav-icon" src="./assets/gallery.png">
@@ -18,7 +18,7 @@
         <img id="nav-map" class="nav-icon" src="./assets/map.png">
       </router-link>
     </div>
-    <div class="signature small" style="color:#C0C0C0">
+    <div class="signature small" :class="classSignature" style="color:#C0C0C0">
       b<br>y<br> <br>e<br>l<br>i<br>x<br>i<br>r
     </div>
 
@@ -36,6 +36,11 @@ export default {
     classNavBottom() {
       return {
         'navbar-white': this.$route.name != 'home'
+      }
+    },
+    classSignature() {
+      return {
+        'd-none': this.$route.name.startsWith('gallery')
       }
     }
   },

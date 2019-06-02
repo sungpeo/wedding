@@ -26,6 +26,7 @@
         <img class="photo" src="../assets/ours/thumbnails/selected-13-sm.jpg" @click="clickPhoto(13)">
         <img class="photo" src="../assets/ours/thumbnails/selected-14-sm.jpg" @click="clickPhoto(14)">
         <img class="photo" src="../assets/ours/thumbnails/selected-15-sm.jpg" @click="clickPhoto(15)">
+        <img class="photo" src="../assets/ours/thumbnails/selected-16-sm.jpg" @click="clickPhoto(16)">
       </div>
     </div>
 
@@ -100,7 +101,7 @@
 </template>
 <script>
 export default {
-  name: 'Gallery',
+
   methods: {
     clickPhoto(cur) {
       var pswpElement = document.querySelectorAll('.pswp')[0];
@@ -165,8 +166,8 @@ export default {
           },
           {
               src: require('../assets/ours/selected-12.jpeg'),
-              w: 642,
-              h: 960
+              w: 960,
+              h: 642
           },
           {
               src: require('../assets/ours/selected-13.jpeg'),
@@ -180,6 +181,11 @@ export default {
           },
           {
               src: require('../assets/ours/selected-15.jpeg'),
+              w: 642,
+              h: 960
+          },
+          {
+              src: require('../assets/ours/selected-16.jpeg'),
               w: 960,
               h: 642
           },
@@ -197,7 +203,7 @@ export default {
       gallery.init();
     }
 
-  }
+  },
   
 }
 </script>
