@@ -3,11 +3,11 @@
     <div class="w-100">
       <img class="bg-img" src="./../assets/ours/eysp-crop.jpg">
     </div>
-    <div class="w-100 p-1" style="position: absolute; top:0px; left:0px">
-      <div class="p-5 m-5">
+    <div class="w-100 pt-1 pb-1" style="position: absolute; top:0px; left:0px">
+      <div class="pt-5 mt-5 pb-5 mb-5">
       </div>
-      <div class="p-5">
-        <div class="title d-font font-weight-bold p-4 pt-5 mt-5">박은영 ❤ 국성표</div>
+      <div class="pt-5">
+        <div class="title d-font font-weight-bold pb-4 pt-5 mt-5">박은영 ❤ 국성표</div>
         <div class="p-5 font-weight-bold">
           <div class="d-font">2019. 8. 31 (토) 낮 12시</div>
           <div class="d-font">신도림 라마다 14층</div>
