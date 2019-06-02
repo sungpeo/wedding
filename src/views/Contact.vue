@@ -1,7 +1,7 @@
 
 <template>
   <div class="contact">
-    <img class="sub-title" src="../assets/contact-title.png">
+    <img class="sub-title" src="../assets/invitation-title.png">
     <!--<h1>Invitation</h1>-->
 
     <div class="p-2">
