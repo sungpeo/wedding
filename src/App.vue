@@ -6,16 +6,20 @@
   
     <div class="navbar fixed-bottom" v-bind:class="classNavBottom" style="height:80px; justify-content:space-around">
       <router-link to="/">
-        <img id="nav-home" class="nav-icon" src="./assets/navy-hearts.png">
+        <img id="nav-home" class="nav-icon" 
+          :src="this.$route.name == 'home' ? this.urlColorHearts : this.urlHearts">
       </router-link>
       <router-link to="/contact">
-        <img id="nav-contact" class="nav-icon" src="./assets/invitation.png">
+        <img id="nav-contact" class="nav-icon" 
+          :src="this.$route.name == 'contact' ? this.urlColorInvitation : this.urlInvitation">
       </router-link>
       <router-link to="/gallery">
-        <img id="nav-gallery" class="nav-icon" src="./assets/gallery.png">
+        <img id="nav-gallery" class="nav-icon" 
+          :src="this.$route.name == 'gallery' ? this.urlColorGallery : this.urlGallery">
       </router-link>
       <router-link to="/map">
-        <img id="nav-map" class="nav-icon" src="./assets/map.png">
+        <img id="nav-map" class="nav-icon" 
+          :src="this.$route.name == 'map' ? this.urlColorMap : this.urlMap">
       </router-link>
       <div class="signature small" :class="classSignature">
       developed by elixir kook
@@ -25,11 +29,23 @@
   </div>
 </template>
 <script>
+
 export default {
   name: 'app',
   data() {
     return {
-      isHome: true
+      isHome: true,
+      urlHearts: require('./assets/navy-hearts.png'),
+      urlColorHearts: require('./assets/hearts-colored.png'),
+
+      urlInvitation: require('./assets/invitation.png'),
+      urlColorInvitation: require('./assets/invitation-colored.png'),
+
+      urlGallery: require('./assets/gallery.png'),
+      urlColorGallery: require('./assets/gallery-colored.png'),
+
+      urlMap: require('./assets/map.png'),
+      urlColorMap: require('./assets/map-colored.png'),
     }
   },
   computed: {
