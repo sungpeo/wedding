@@ -7,7 +7,9 @@
       <div class="pt-5 mt-5 pb-5 mb-5">
       </div>
       <div class="pt-5">
-        <div class="title d-font font-weight-bold pb-4 pt-5 mt-5">박은영 ❤ 국성표</div>
+        <div class="title d-font font-weight-bold pb-4 pt-5 mt-5">
+          박은영 <span v-on:click="easteregg()">❤</span> 국성표
+        </div>
         <div class="p-5 font-weight-bold">
           <div class="d-font">2019. 8. 31 (토) 낮 12시</div>
           <div class="d-font">신도림 라마다 14층</div>
@@ -16,6 +18,22 @@
     </div>
   </div>
 </template>
+<script>
+export default {
+  name: 'Home',
+  data() {
+    return {
+      easter: 0
+    }
+  },
+  methods: {
+    easteregg(evt) {
+      console.log('hello');
+      
+    }
+  }
+}
+</script>
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
