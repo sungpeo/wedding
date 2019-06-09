@@ -118,17 +118,17 @@
 
 <style scoped>
 .call-img {
-  width: 35px;
-  height: 35px;
-}
-.msg-img {
-  height: 35px
-}
-.call-img-sm {
   width: 30px;
   height: 30px;
 }
-.msg-img-sm {
+.msg-img {
   height: 30px
+}
+.call-img-sm {
+  width: 25px;
+  height: 25px;
+}
+.msg-img-sm {
+  height: 25px
 }
 </style>
