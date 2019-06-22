@@ -81,6 +81,10 @@ export default {
     word-break: keep-all;
 }
 
+div {
+    font-family: Daehan, Helvetica;
+}
+
 .title {
   font-size: 32px;
 }
