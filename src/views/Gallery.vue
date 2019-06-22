@@ -171,8 +171,8 @@ export default {
           },
           {
               src: require('../assets/ours/selected-13.jpeg'),
-              w: 642,
-              h: 960
+              w: 960,
+              h: 642
           },
           {
               src: require('../assets/ours/selected-14.jpeg'),
