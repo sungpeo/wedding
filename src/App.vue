@@ -3,23 +3,23 @@
     <div id="app">
       <router-view/>
     </div>
-  
+
     <div class="navbar fixed-bottom" v-bind:class="classNavBottom" style="height:80px; justify-content:space-around">
+      <router-link to="/thanks">
+        <img id="nav-thx" class="nav-icon-md"
+             :src="this.$route.name == 'thanks' ? this.urlColorThx : this.urlThx">
+      </router-link>
       <router-link to="/">
-        <img id="nav-home" class="nav-icon" 
+        <img id="nav-home" class="nav-icon"
           :src="this.$route.name == 'home' ? this.urlColorHearts : this.urlHearts">
       </router-link>
       <router-link to="/contact">
-        <img id="nav-contact" class="nav-icon" 
+        <img id="nav-contact" class="nav-icon"
           :src="this.$route.name == 'contact' ? this.urlColorInvitation : this.urlInvitation">
       </router-link>
       <router-link to="/gallery">
-        <img id="nav-gallery" class="nav-icon" 
+        <img id="nav-gallery" class="nav-icon"
           :src="this.$route.name == 'gallery' ? this.urlColorGallery : this.urlGallery">
-      </router-link>
-      <router-link to="/map">
-        <img id="nav-map" class="nav-icon" 
-          :src="this.$route.name == 'map' ? this.urlColorMap : this.urlMap">
       </router-link>
       <div class="signature small" :class="classSignature">
       developed by elixir kook
@@ -35,6 +35,10 @@ export default {
   data() {
     return {
       isHome: true,
+
+      urlThx: require('./assets/bride_groom.png'),
+      urlColorThx: require('./assets/colored_bride_groom.png'),
+
       urlHearts: require('./assets/navy-hearts.png'),
       urlColorHearts: require('./assets/hearts-colored.png'),
 
@@ -50,16 +54,21 @@ export default {
   },
   computed: {
     classNavBottom() {
-      return {
-        'navbar-white': this.$route.name != 'home'
-      }
+      return {};
+      // return {
+      //   'navbar-white': this.$route.name != 'home'
+      // }
     },
     classSignature() {
-      return {
-        'd-none': this.$route.name != 'home'
-      }
+      return {};
+      // return {
+      //   'd-none': this.$route.name != 'home'
+      // }
     }
   },
+  mounted() {
+    this.$router.push('/thanks');
+  }
 }
 </script>
 <style>
@@ -107,6 +116,16 @@ a {
 
 .navbar-white {
   background-color: white;
+}
+
+.nav-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.nav-icon-md {
+  width: 55px;
+  height: 55px;
 }
 
 .signature {
