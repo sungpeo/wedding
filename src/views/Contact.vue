@@ -16,103 +16,17 @@
 
     <div class="p-4">
       <div class="w-100 p-1">
-        <div class="w-50 d-inline-block">신랑 국성표</div>
-        <div class="w-50 d-inline-block">
-          <div class="p-1 d-inline-block">
-            <a href="tel:010-5312-6382">
-              <img class="call-img" src="../assets/call.png">
-            </a>
-          </div>
-          <div class="pl-4 d-inline-block">
-            <a href="sms:010-5312-6382">
-              <img class="msg-img" src="../assets/message.png">
-            </a>
-          </div>
+        <div class="w-100 d-inline-block">
+          국경만ㆍ안복순 의 장남 <b>성표</b>
         </div>
       </div>
       <div class="w-100 p-1">
-        <div class="w-50 d-inline-block">신부 박은영</div>
-        <div class="w-50 d-inline-block">
-          <div class="p-1 d-inline-block">
-            <a href="tel:010-4324-9095">
-              <img class="call-img" src="../assets/call.png">
-            </a>
-          </div>
-          <div class="pl-4 d-inline-block">
-            <a href="sms:010-4324-9095">
-              <img class="msg-img" src="../assets/message.png">
-            </a>
-          </div>
+        <div class="w-100 d-inline-block">
+          박용덕ㆍ김정숙 의 장녀 <b>은영</b>
         </div>
       </div>
     </div>
 
-    <div class="w-100 pb-5 mb-5">
-
-      <div class="w-50 d-inline-block">
-
-        <div class="p-3">신랑 측 혼주</div>
-        <div>아버지 국경만</div>
-        <div class="p-2">
-          <div class="m-1 d-inline-block">
-            <a href="tel:010-6266-6382">
-              <img class="call-img-sm" src="../assets/call.png">
-            </a>
-          </div>
-          <div class="m-1 pl-3 d-inline-block">
-            <a href="sms:010-6266-6382">
-              <img class="msg-img-sm" src="../assets/message.png">
-            </a>
-          </div>
-        </div>
-
-        <div class="pt-3">어머니 안복순</div>
-        <div class="p-2">
-          <div class="m-1 d-inline-block">
-            <a href="tel:010-5737-6382">
-              <img class="call-img-sm" src="../assets/call.png">
-            </a>
-          </div>
-          <div class="m-1 pl-3 d-inline-block">
-            <a href="sms:010-5737-6382">
-              <img class="msg-img-sm" src="../assets/message.png">
-            </a>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="w-50 d-inline-block">
-        <div class="p-3">신부 측 혼주</div>
-        <div>아버지 박용덕</div>
-        <div class="p-2">
-          <div class="m-1 d-inline-block">
-            <a href="tel:010-4577-3445">
-              <img class="call-img-sm" src="../assets/call.png">
-            </a>
-          </div>
-          <div class="m-1 pl-3 d-inline-block">
-            <a href="sms:010-4577-3445">
-              <img class="msg-img-sm" src="../assets/message.png">
-            </a>
-          </div>
-        </div>
-        <div class="pt-3">어머니 김정숙</div>
-        <div class="p-2">
-          <div class="m-1 d-inline-block">
-            <a href="tel:010-5015-9223">
-              <img class="call-img-sm" src="../assets/call.png">
-            </a>
-          </div>
-          <div class="m-1 pl-3 d-inline-block">
-            <a href="sms:010-5015-9223">
-              <img class="msg-img-sm" src="../assets/message.png">
-            </a>
-          </div>
-        </div>
-      </div>
-
-    </div>
   </div>
 </template>
 

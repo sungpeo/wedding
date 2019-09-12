@@ -29,7 +29,7 @@ export default {
   methods: {
     easteregg(evt) {
       console.log('hello');
-      
+
     }
   }
 }
@@ -55,18 +55,13 @@ export default {
 
 .img-content {
   width: 100%;
-} 
+}
 
 .bg-img {
   width: 100%;
   z-index: -1;
   position: 50%;
   opacity: .4;
-}
-
-.nav-icon {
-  width: 40px;
-  height: 40px;
 }
 
 .wd-color {
